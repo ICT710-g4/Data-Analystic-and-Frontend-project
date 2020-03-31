@@ -1,4 +1,14 @@
 # Data-Analystics-and-Frontend-project
+
+## Members
+
+| Name | StudentID |
+|--|--|
+| Isada Sukprapa| 6222040302 |
+| Narusorn Sirivon  | 6222040310 |
+| Menghorng Bun | 6222040096 |
+
+
 # Test Case
 **Frontend-TC-001**\
 **Description:**
