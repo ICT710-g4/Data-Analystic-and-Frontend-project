@@ -10,7 +10,6 @@
 
 
 # Test Case
-## Narusorn
 **Frontend-TC-001**\
 **Description:**
 Frontend page can issue POST request and recieve POST response from API server\
@@ -26,7 +25,6 @@ API POST response\
 **Expected Result:**
 Webpage have the same response as Postman method\
 
-## Isada
 **DA01-load_csv**
 
 **Description:** To load model from csv file, print out the description, return dataframe
@@ -99,4 +97,18 @@ Webpage have the same response as Postman method\
 - test_data3: error
 - test_data4: error
 
-## Menghorng
+**Frontend interface**
+
+Working on HTML CSS and Javascrip:
+
+	-Read data from data analysis 
+	
+	-Display the stutus of each device
+	
+**for testing**
+
+	Reading data by human input to replace data from data analysis
+	
+	Using button "start" to make situation refresh page.
+	
+	Display stutus. 
