@@ -24,3 +24,69 @@ Frontend page can issue POST request and recieve POST response from API server\
 API POST response\
 **Expected Result:**
 Webpage have the same response as Postman method\
+
+**DA01-load_csv**
+**Description:** To load model from csv file, print out the description, return dataframe
+**Procedures:**
+1. Call load_csv function with parameter is test data
+2. Observe the result
+
+**Test data:**
+- test_data1: 
+	- paratemer: "data.csv"
+	- detail: which file is exist and format correct
+- test_data2: 
+	- parameter: "data.csv"
+	- detail: which file is not exist
+- test_data3: 
+	- parameter: "data.csv"
+	- detail: which file exist but wrong format
+
+**Expected results:**
+- test_data1: print describtion and return DataFrame object
+- test_data2: error
+- test_data3: error
+
+**DA02-plot_scatter**
+**Description:** Plot the scatter graph for obeserve the data distribution
+**Procedures:**
+1. Call load_csv function with parameter is test data
+2. Observe the result
+
+**Test data:**
+- test_data1:
+	- parameter: "df"
+	- detail: which df is DataFrame type object
+- test_data2:
+	- parameter: "df"
+	- detail: which df is not DataFrame type object
+
+**Expected results:**
+- test_data1: plot scatter graph
+- test_data2: error
+
+**DA03-train_model**
+**Description:** Train the selected model from data, and dump the model into file 
+**Procedures:**
+1. Call plot_scatter function with parameter is test data
+2. Observe the result
+
+**Test data:**
+- test_data1: 
+	- parameter: "df", "model_name"
+	- detail: which df is DataFrame type object, "model_name" is exist
+- test_data2:
+	- parameter: "df", "model_name"
+	- detail: which df is DataFrame type object, "model_name" is not exist
+- test_data3:
+	- parameter: "df", "model_name"
+	- detail: which df isn't DataFrame type object, "model_name" is exist
+- test_data4:
+	- parameter: "df"
+	- detail: which df is DataFrame type object, "model_name" is not declared
+
+**Expected results:**
+- test_data1: plot scatter graph
+- test_data2: error
+- test_data3: error
+- test_data4: error
