@@ -26,7 +26,9 @@ API POST response\
 Webpage have the same response as Postman method\
 
 **DA01-load_csv**
+
 **Description:** To load model from csv file, print out the description, return dataframe
+
 **Procedures:**
 1. Call load_csv function with parameter is test data
 2. Observe the result
@@ -48,7 +50,9 @@ Webpage have the same response as Postman method\
 - test_data3: error
 
 **DA02-plot_scatter**
+
 **Description:** Plot the scatter graph for obeserve the data distribution
+
 **Procedures:**
 1. Call load_csv function with parameter is test data
 2. Observe the result
@@ -66,7 +70,9 @@ Webpage have the same response as Postman method\
 - test_data2: error
 
 **DA03-train_model**
+
 **Description:** Train the selected model from data, and dump the model into file 
+
 **Procedures:**
 1. Call plot_scatter function with parameter is test data
 2. Observe the result
