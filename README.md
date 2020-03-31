@@ -23,7 +23,7 @@ Frontend page can issue POST request and recieve POST response from API server\
 **Test Data/Device:**
 API POST response\
 **Expected Result:**
-Webpage have the same response as Postman method\
+Webpage have the same response as Postman method
 
 **DA01-load_csv**
 
