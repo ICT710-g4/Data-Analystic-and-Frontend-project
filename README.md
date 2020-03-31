@@ -103,7 +103,7 @@ Working on HTML CSS and Javascrip:
 
 	-Read data from data analysis 
 	
-	-Display the stutus of each device
+	-Display the status of each device
 	
 **for testing**
 
@@ -111,4 +111,4 @@ Working on HTML CSS and Javascrip:
 	
 	Using button "start" to make situation refresh page.
 	
-	Display stutus. 
+	Display status. 
